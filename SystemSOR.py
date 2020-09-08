@@ -1,6 +1,6 @@
 import numpy as np
 
-def SOR(a,b,x0,w=1,c=0.0001,d=30):
+def SOR(a,b,x0,w=1.5,c=0.0001,d=30):
     x1=x0.copy()*1.0
     x2=x0.copy()*1.0
     k=0
