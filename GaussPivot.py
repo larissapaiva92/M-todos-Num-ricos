@@ -1,3 +1,5 @@
+import numpy as np
+
 def gauss(M,f):
     n = len(f)
     A = np.zeros((n,n+1))
