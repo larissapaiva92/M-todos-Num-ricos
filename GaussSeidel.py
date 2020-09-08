@@ -7,7 +7,7 @@ import numpy as np
 ## x0 initial guess of the solution
 ############################################################
 
-def gauss_seidel(A,f,x0,ITER_MAX = 100, tol = 1E-8,_debug_=1):
+def gauss_seidel(A,f,x0,ITER_MAX = 100, tol = 1E-4,_debug_=1):
   # size of the system
   n = A.shape[0]
   # initialize the residual
